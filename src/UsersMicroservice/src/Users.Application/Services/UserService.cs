@@ -1,17 +1,33 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
 using Users.Application.Contracts.Repositories;
 using Users.Application.Contracts.Services;
 using Users.Application.Dtos;
 using Users.Application.Dtos.Requests;
 using Users.Application.Exceptions;
+using Users.Application.Extensions;
 
 namespace Users.Application.Services;
 
-public class UserService(IUserRepository _userRepository, ITokenService _tokenService) : IUserService
+public class UserService(IUserRepository _userRepository, ITokenService _tokenService, IHttpContextAccessor _httpContextAccessor) : IUserService
 {
     private readonly PasswordHasher<object> _passwordHasher = new();
     public async Task<Guid> CreateUserAsync(CreateUserRequestDto createUserDto)
     {
+        var _validator = GetValidator<IValidator<CreateUserRequestDto>>();
+
+        var validationResult = _validator.Validate(createUserDto);
+        if (!validationResult.IsValid)
+        {
+            var errors = validationResult.Errors.ToDictionary();
+            throw new RequestValidationException(
+               "Invalid user signup request",
+               errors
+           );
+        }
+
         var hashedPassword = _passwordHasher.HashPassword(createUserDto.Email, createUserDto.Password);
         createUserDto.Password = hashedPassword;
 
@@ -29,20 +45,29 @@ public class UserService(IUserRepository _userRepository, ITokenService _tokenSe
         throw new NotImplementedException();
     }
 
-    public async Task<string> AuthenticateAndGenerateUserTokenAsync(string email, string password)
+    public async Task<string> AuthenticateAndGenerateUserTokenAsync(LoginUserRequestDto requestDto)
     {
-        var user = await _userRepository.GetUserByEmail(email);
-        if (user.userDto is null)
+        var _validator = GetValidator<IValidator<LoginUserRequestDto>>();
+
+        var validationResult = _validator.Validate(requestDto);
+        if (!validationResult.IsValid)
         {
-            throw new Exception("user not found");
+            var errors = validationResult.Errors.ToDictionary();
+            throw new RequestValidationException(
+               "Invalid login request",
+               errors
+           );
         }
-        var verificationResult = _passwordHasher.VerifyHashedPassword(user.userDto.Email, user.hashedPassword, password);
+
+        var user = await _userRepository.GetUserByEmail(requestDto.Email);
+
+        var verificationResult = _passwordHasher.VerifyHashedPassword(user.userDto.Email, user.hashedPassword, requestDto.Password);
         if (verificationResult == PasswordVerificationResult.Success)
         {
             return _tokenService.CreateToken(user.userDto.Id, user.userDto.Email, user.userDto.Name);
         }
 
-        throw new WrongUserCredentialsException(email);
+        throw new WrongUserCredentialsException(requestDto.Email);
     }
 
     public Task<UserDto> GetUserByIdAsync(Guid userId)
@@ -58,5 +83,11 @@ public class UserService(IUserRepository _userRepository, ITokenService _tokenSe
     public async Task DeactivateUserAsync(Guid id)
     {
         await _userRepository.DeactivateUser(id);
+    }
+
+    private T GetValidator<T>()
+    {
+        var scope = _httpContextAccessor.HttpContext.RequestServices.CreateScope();
+        return scope.ServiceProvider.GetRequiredService<T>();
     }
 }

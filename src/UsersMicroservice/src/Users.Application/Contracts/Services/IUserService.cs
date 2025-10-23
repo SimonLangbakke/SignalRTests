@@ -8,8 +8,8 @@ public interface IUserService
     Task<Guid> CreateUserAsync(CreateUserRequestDto createUserDto);
     Task DeleteUserAsync(Guid userId);
     Task<bool> UpdateUserAsync(Guid userId, string name, string email);
-    Task<UserDto> GetUserByIdAsync(Guid userId);
-    Task<string> AuthenticateAndGenerateUserTokenAsync(string email, string password);
+    Task<UserDto?> GetUserByIdAsync(Guid userId);
+    Task<string> AuthenticateAndGenerateUserTokenAsync(LoginUserRequestDto requestDto);
     Task<IEnumerable<UserDto>> GetAllUsersAsync();
     Task DeactivateUserAsync(Guid id);
 }
