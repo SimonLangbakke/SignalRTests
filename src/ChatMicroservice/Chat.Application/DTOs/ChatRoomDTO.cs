@@ -1,4 +1,4 @@
-namespace ChatMicroservice.DTOs
+namespace Chat.Application.DTOs
 {
     public class ChatRoomDTO
     {

@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-namespace ChaatMicroservice.Services
+namespace Chat.Application.Services
 {
     public class ChatService : IChatService
     {

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace ChatMicroservice.Data.Repositories
+namespace ChatMicroservice.Repository
 {
     using ChatMicroservice.Models;
     using ChatMicroservice.Data;
