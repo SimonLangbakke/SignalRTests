@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\ChatMicroservice",
+    "\\src\\ChatMicroservice\\Chat.Application",
+    "\\src\\ChatMicroservice\\Chat.Application\\Contracts",
+    "\\src\\ChatMicroservice\\Chat.Application\\Contracts\\Repositories",
+    "\\src\\EventsMicroservice",
+    "\\src\\EventsMicroservice\\src",
+    "\\src\\EventsMicroservice\\src\\Events.Infrastructure",
+    "\\src\\EventsMicroservice\\src\\Events.Infrastructure\\Repository"
+  ],
+  "SelectedNode": "\\src\\ChatMicroservice\\Chat.Application\\Services",
+  "PreviewInSolutionExplorer": false
+}

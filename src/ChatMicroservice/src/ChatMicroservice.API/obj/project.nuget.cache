@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8Nnr7t2N0Xs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\simon\\Documents\\Master's 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.API\\ChatMicroservice.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simon\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\simon\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

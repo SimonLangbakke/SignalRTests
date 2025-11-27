@@ -1,0 +1,15 @@
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\bin\Debug\net9.0\ChatMicroservice.Application.deps.json
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\bin\Debug\net9.0\ChatMicroservice.Application.dll
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\bin\Debug\net9.0\ChatMicroservice.Application.pdb
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\ChatMicroservice.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\ChatMicroservice.Application.AssemblyInfoInputs.cache
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\ChatMicroservice.Application.AssemblyInfo.cs
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\ChatMicroservice.Application.csproj.CoreCompileInputs.cache
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\ChatMicroservice.Application.dll
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\refint\ChatMicroservice.Application.dll
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\ChatMicroservice.Application.pdb
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\ref\ChatMicroservice.Application.dll
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\bin\Debug\net9.0\ChatMicroservice.Domain.dll
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\bin\Debug\net9.0\ChatMicroservice.Domain.pdb
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\ChatMicroservice.Application.csproj.AssemblyReference.cache
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Application\obj\Debug\net9.0\ChatMicr.FB2D98C7.Up2Date

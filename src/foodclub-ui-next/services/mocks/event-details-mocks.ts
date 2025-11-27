@@ -1,0 +1,47 @@
+export const eventDetailsMocks = [
+  {
+    id: "5d92825a-133e-4ac8-8fa5-da8696a486a8",
+    title: "Noodles & More at Vesterport",
+    description: "Join us for a delightful evening of noodles and more!",
+    date: "2024-06-15",
+    time: "19:00",
+    hostName: "Anna S.",
+    hostRating: 4.8,
+    tags: ["Vegetarian", "Gluten-Free"],
+    seatsAvailable: 5,
+    totalSeats: 7,
+    price: 55,
+    imageUrl:
+      "https://i0.wp.com/blog.themalamarket.com/wp-content/uploads/2024/06/Vegetarian-pulled-noodles-lead-more-sat.jpg?resize=1200%2C900&ssl=1",
+  },
+  {
+    id: "f45d14a0-0a8b-475c-9cda-2837810bb0c2",
+    title: "Pasta Night at Nørrebro",
+    description: "A cozy evening of pasta making and sharing.",
+    date: "2024-06-20",
+    time: "18:30",
+    hostName: "Lars M.",
+    hostRating: 4.5,
+    tags: ["Italian", "Vegan"],
+    seatsAvailable: 3,
+    totalSeats: 5,
+    price: 70,
+    imageUrl:
+      "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?semt=ais_hybrid&w=740&q=80",
+  },
+  {
+    id: "a3c9f1e2-6f4b-4d2e-9f3e-8b7c9e5d2f1a",
+    title: "Sushi Time in Copenhagen",
+    description: "Learn to make sushi with a professional chef.",
+    date: "2024-06-25",
+    time: "17:00",
+    hostName: "Yuki T.",
+    hostRating: 4.9,
+    tags: ["Japanese", "Seafood", "chop-chop"],
+    seatsAvailable: 2,
+    totalSeats: 6,
+    price: 120,
+    imageUrl:
+      "https://cdn.foodfaithfitness.com/uploads/2025/02/a-crunchy_roll_sushi-feature-2.jpeg",
+  },
+];

@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ChatMicroservice.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ChatMicroservice.Application": "1.0.0",
+          "ChatMicroservice.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ChatMicroservice.Infrastructure.dll": {}
+        }
+      },
+      "ChatMicroservice.Application/1.0.0": {
+        "dependencies": {
+          "ChatMicroservice.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ChatMicroservice.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ChatMicroservice.Domain/1.0.0": {
+        "runtime": {
+          "ChatMicroservice.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChatMicroservice.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChatMicroservice.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChatMicroservice.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

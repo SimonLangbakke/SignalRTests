@@ -1,0 +1,16 @@
+.host-details {
+  display: flex;
+  gap: 20px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.reservation-status-and-pricing {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

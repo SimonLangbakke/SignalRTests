@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: users-db
+spec:
+  # Standard for dbs, its mostly the api that gets scaled
+  replicas: 1
+  selector:
+    matchLabels: 
+      app: users-db 
+  # the pod template
+  template:
+    metadata: #contains the labels applied to the pod. needs to match the selector 
+      labels: 
+        app: users-db 
+    spec:
+      containers:
+        - name: users-db 
+          image: postgres:15
+          ports: 
+            - containerPort: 5432
+          env: 
+            - name: POSTGRES_USER
+              value: "postgres"
+            - name: POSTGRES_PASSWORD
+              value: "postgres"
+            - name: POSTGRES_DB
+              value: "usersdb"
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: users-db-storage
+      volumes:
+        - name: users-db-storage 
+          persistentVolumeClaim:
+            claimName: users-pvc
+
+
+

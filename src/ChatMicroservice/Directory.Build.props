@@ -1,0 +1,24 @@
+<Project>
+  <PropertyGroup>
+    <!-- Enable nullable reference types -->
+    <Nullable>enable</Nullable>
+    
+    <!-- Treat warnings as errors -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    
+    <!-- Warning level (0-5, where 5 is maximum) -->
+    <WarningLevel>5</WarningLevel>
+    
+    <!-- Enable all code analysis rules -->
+    <AnalysisLevel>latest</AnalysisLevel>
+    
+    <!-- Enable .NET analyzers -->
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    
+    <!-- Implicit usings for all projects -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- Target framework for all projects -->
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+</Project>

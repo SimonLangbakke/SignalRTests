@@ -1,0 +1,12 @@
+apiVersion: v1 
+kind: Service # Services exposes internally or externally 
+metadata:
+  name: users-db
+spec:
+  type: ClusterIP # Not exposed outside the cluster. SHould only be accessed by other services in the same cluster
+  selector: 
+    app: users-db # Routes traffic to pod with label events-db (deployment.yaml)
+  ports:
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432
