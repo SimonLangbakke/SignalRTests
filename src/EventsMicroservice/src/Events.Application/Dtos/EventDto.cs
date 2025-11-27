@@ -7,15 +7,19 @@ public record EventDto(
     Guid UserId,
     string Name,
     string Description,
-    string FoodName,
     int MaxAllowedParticipants,
+    double PricePerSeat,
     int MinAllowedAge,
     int MaxAllowedAge,
     DateTime StartDate,
+    DateTime? EndDate,
     DateTime ReservationEndDate,
     string ImageThumbnail,
     DateTime CreatedDate,
     bool IsActive,
     bool IsPublic,
-    ICollection<EventParticipant> EventParticipants
+    EventAddress EventAddress,
+    EventFoodDetails EventFoodDetails,
+    IEnumerable<EventParticipant> EventParticipants,
+    IEnumerable<EventImage> EventImages
 );

@@ -1,0 +1,148 @@
+name: publish-events-sdk
+on:
+  push:
+    branches:
+    - master
+    - feature/events-sdk-cicd
+    paths:
+      - 'src/EventsMicroservice/**'                 
+      - 'src/npm-packages/events-ts-sdk/**'
+  workflow_dispatch:
+
+jobs:
+  build-publish-openapi-client:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v5
+
+      # Run .NET API
+
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 9.0.x
+
+      - name: Restore & Build Events API
+        run: |
+          dotnet restore ./src/EventsMicroservice/src/Events.Api
+          dotnet build   ./src/EventsMicroservice/src/Events.Api -c Release --no-restore
+
+      - name: Run Events API (CICD env, background)
+        env:
+          ASPNETCORE_ENVIRONMENT: CICD
+          DOTNET_ENVIRONMENT: CICD
+        run: |
+          dotnet run --project ./src/EventsMicroservice/src/Events.Api \
+            --configuration Release --no-build --no-launch-profile \
+            --urls "http://127.0.0.1:5050" > api.log 2>&1 &
+          api_pid=$!
+          echo $api_pid > api.pid
+          
+          echo "Waiting for API to start..."
+          for i in {1..30}; do
+            if grep -q "Application started." api.log 2>/dev/null; then
+              echo "✓ API started successfully"
+              break
+            fi
+            
+            if ! kill -0 $api_pid 2>/dev/null; then
+              echo "✗ API process died unexpectedly. Log output:"
+              cat api.log || true
+              exit 1
+            fi
+            
+            echo "  Still waiting... ($i/30)"
+            sleep 2
+          done
+          
+          if ! grep -q "Application started." api.log 2>/dev/null; then
+            echo "✗ API did not start in time. Log output:"
+            cat api.log || true
+            exit 1
+          fi
+
+      - name: Wait for Swagger JSON
+        run: |
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:5050/swagger/v1/swagger.json -o openapi.json; then
+              echo "Swagger spec downloaded."
+              exit 0
+            fi
+            echo "Waiting for API... ($i)"
+            sleep 2
+          done
+          echo "API did not become ready in time"; exit 1
+
+      - name: Stop API
+        if: always()
+        run: |
+          kill $(cat api.pid) || true
+
+      # Orval generation + publish
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24.x
+
+      # !!!Maybe not needed
+      # - name: Setup pnpm
+      #   uses: pnpm/action-setup@v4
+      #   with:
+      #     version: 10
+
+      - name: Install SDK dev deps (orval)
+        working-directory: src/npm-packages/events-ts-sdk
+        run: npm i
+
+      - name: Generate TS client with Orval
+        working-directory: src/npm-packages/events-ts-sdk
+        run: npx orval --config ./orval.config.js
+        #run: pnpm run gen
+        # or: pnpm dlx orval --config orval.config.ts
+
+
+      # e.g. 1.0.3 -> 1.0.4
+      # - name: Update npm package patch version
+      #   working-directory: src/npm-packages/events-ts-sdk/src
+      #   run: |
+      #     npm version patch
+
+      - name: Set patch version from build number
+        working-directory: src/npm-packages/events-ts-sdk/src
+        run: |
+          BUILD=${GITHUB_RUN_NUMBER}
+          BASE=$(node -p "require('./package.json').version.split('.').slice(0,2).join('.')") # e.g. "1.0"
+          NEW="$BASE.$BUILD"
+          npm version "$NEW" --no-git-tag-version
+          echo "Publishing version $NEW"
+
+      - name: Install the sdk package deps
+        working-directory: src/npm-packages/events-ts-sdk/src
+        run: npm i
+
+      - name: Build SDK npm package
+        working-directory: src/npm-packages/events-ts-sdk/src
+        run: npm run build
+
+      
+
+      # - name: Pack SDK tarball
+      #   id: pack
+      #   working-directory: src/npm-packages/events-ts-sdk
+      #   run: pnpm pack --pack-destination ./artifact
+
+
+      - name: Publish SDK npm package to GitHub Packages
+        working-directory: src/npm-packages/events-ts-sdk/src
+        env:
+          GITHUB_NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm publish 
+
+      # - name: Upload SDK artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: events-api-sdk-tarball
+      #     path: packages/events-api-sdk/artifact/*.tgz

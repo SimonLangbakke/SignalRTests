@@ -2,15 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventsMicroservice", "EventsMicroservice", "{160EB4E3-7DFC-4353-9614-30F1348D4382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.Api", "EventsMicroservice\Events.Api\Events.Api.csproj", "{6799342E-0944-41E6-99D9-7C825D5A542D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsersMicroservice", "UsersMicroservice", "{47CA9AD3-4B84-47C7-A396-33CFCE2A1321}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Api", "UsersMicroservice\Users.Api\Users.Api.csproj", "{30E6550A-F4AD-43F7-803A-E43BAE136CA6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.Domain", "EventsMicroservice\Events.Domain\Events.Domain.csproj", "{FFCAF6B0-58F9-4CE9-94B2-5C0B22330EA0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Infrastructure", "UsersMicroservice\Users.Infrastructure\Users.Infrastructure.csproj", "{C52011E0-2FA7-4A2F-889A-94057C64945A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

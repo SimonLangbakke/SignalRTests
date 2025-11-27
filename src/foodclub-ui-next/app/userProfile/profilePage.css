@@ -1,0 +1,18 @@
+.centered-profile-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+/* Light gray background for the page */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .centered-profile-page {
+    padding: 1rem;
+  }
+}

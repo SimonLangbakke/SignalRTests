@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: events-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels: 
+      app: events-api 
+  # the pod template
+  template:
+    metadata: #contains the labels applied to the pod. needs to match the selector 
+      labels: 
+        app: events-api  
+    spec:
+      containers:
+        - name: events-api  
+          image: mathilch/events-api:latest
+          imagePullPolicy: Always
+          ports: 
+            - containerPort: 8080
+          env: 
+            - name: DATABASE_HOST
+              value: "events-db"
+            - name: DATABASE_USER
+              value: "postgres"
+            - name: DATABASE_PASSWORD
+              value: "postgres"
+            - name: DATABASE_NAME
+              value: "eventsdb"
+
+
+

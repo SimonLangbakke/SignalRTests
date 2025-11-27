@@ -1,8 +1,5 @@
-import BasicsForm from "@/components/core/createFoodEventForms/basicsForm";
-import Link from "next/link";
+import { redirect } from "next/navigation";
 
 export default function CreateFoodEvent() {
-    return (
-        <BasicsForm />
-    );
+    redirect("/createFoodEvent/step/1");
 }

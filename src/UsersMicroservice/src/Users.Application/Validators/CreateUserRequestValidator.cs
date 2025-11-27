@@ -16,8 +16,5 @@ public class CreateUserRequestValidator : AbstractValidator<CreateUserRequestDto
         RuleFor(x => x.Password)
             .NotEmpty().WithMessage("Password is required.")
             .MinimumLength(6).WithMessage("Password must be at least 6 characters long.");
-        RuleFor(x => x.Age)
-            .NotEmpty().WithMessage("Age is required.")
-            .Must(age => age >= 18).WithMessage("User must be at least 18 years old.");
     }
 }

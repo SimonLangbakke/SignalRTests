@@ -31,6 +31,9 @@ namespace Users.Infrastructure.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("integer");
 
+                    b.Property<DateOnly>("Birthday")
+                        .HasColumnType("date");
+
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("timestamp with time zone")

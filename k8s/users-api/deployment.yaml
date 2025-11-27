@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: users-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels: 
+      app: users-api 
+  # the pod template
+  template:
+    metadata: #contains the labels applied to the pod. needs to match the selector 
+      labels: 
+        app: users-api  
+    spec:
+      containers:
+        - name: users-api  
+          image: mathilch/users-api:latest
+          ports: 
+            - containerPort: 8080
+          env: 
+            - name: DATABASE_HOST
+              value: "users-db"
+            - name: DATABASE_USER
+              value: "postgres"
+            - name: DATABASE_PASSWORD
+              value: "postgres"
+            - name: DATABASE_NAME
+              value: "usersdb"
+
+

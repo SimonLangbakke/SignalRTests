@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: events-db
+spec:
+  # Standard for dbs, its mostly the api that gets scaled
+  replicas: 1
+  selector:
+    matchLabels: 
+      app: events-db 
+  # the pod template
+  template:
+    metadata: #contains the labels applied to the pod. needs to match the selector 
+      labels: 
+        app: events-db 
+    spec:
+      containers:
+        - name: events-db 
+          image: postgres:15
+          ports: 
+            - containerPort: 5432
+          env: 
+            - name: POSTGRES_USER
+              value: "postgres"
+            - name: POSTGRES_PASSWORD
+              value: "postgres"
+            - name: POSTGRES_DB
+              value: "eventsdb"
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: events-db-storage
+      volumes:
+        - name: events-db-storage 
+          persistentVolumeClaim:
+            claimName: events-pvc
+
+
+

@@ -1,0 +1,25 @@
+{
+  "name": "@Rameez349/events-api-sdk",
+  "version": "1.1.5",
+  "description": "foodclub events service sdk",
+  "license": "ISC",
+  "author": "foodclub",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rameez349/foodclubapp.git"
+  },
+  "main": "dist/generated/eventsApi.js",
+  "types": "dist/generated/eventsApi.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  }
+}
