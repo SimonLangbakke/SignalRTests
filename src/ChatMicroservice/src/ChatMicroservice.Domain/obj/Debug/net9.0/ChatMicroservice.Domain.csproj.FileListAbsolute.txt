@@ -9,3 +9,15 @@ C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\Ch
 C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\refint\ChatMicroservice.Domain.dll
 C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ChatMicroservice.Domain.pdb
 C:\Users\simon\Documents\Master's 2025\P7Personal\P7Temp\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ref\ChatMicroservice.Domain.dll
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\bin\Debug\net9.0\ChatMicroservice.Domain.deps.json
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\bin\Debug\net9.0\ChatMicroservice.Domain.dll
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\bin\Debug\net9.0\ChatMicroservice.Domain.pdb
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ChatMicroservice.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ChatMicroservice.Domain.AssemblyInfoInputs.cache
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ChatMicroservice.Domain.AssemblyInfo.cs
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ChatMicroservice.Domain.csproj.CoreCompileInputs.cache
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ChatMicroservice.Domain.sourcelink.json
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ChatMicroservice.Domain.dll
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\refint\ChatMicroservice.Domain.dll
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ChatMicroservice.Domain.pdb
+C:\Users\simon\Documents\Master's 2025\P7Personal\P7Local\socialdiningapp\src\ChatMicroservice\src\ChatMicroservice.Domain\obj\Debug\net9.0\ref\ChatMicroservice.Domain.dll
