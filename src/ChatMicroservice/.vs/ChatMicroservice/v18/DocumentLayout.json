@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.infrastructure\\context\\chatdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|solutionrelative:src\\chatmicroservice.infrastructure\\context\\chatdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.infrastructure\\serviceextensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|solutionrelative:src\\chatmicroservice.infrastructure\\serviceextensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A42426-A864-47A7-B310-1BA8CB3B81CE}|src\\ChatMicroservice.API\\ChatMicroservice.API.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62A42426-A864-47A7-B310-1BA8CB3B81CE}|src\\ChatMicroservice.API\\ChatMicroservice.API.csproj|solutionrelative:src\\chatmicroservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.infrastructure\\entityconfigurations\\chatroomentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|solutionrelative:src\\chatmicroservice.infrastructure\\entityconfigurations\\chatroomentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.infrastructure\\entityconfigurations\\chatroommemberentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|solutionrelative:src\\chatmicroservice.infrastructure\\entityconfigurations\\chatroommemberentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.infrastructure\\context\\chatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|solutionrelative:src\\chatmicroservice.infrastructure\\context\\chatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.infrastructure\\chatmicroservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A515C47-A0EE-4BAC-A25D-065D1B1A8DEF}|src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj|solutionrelative:src\\chatmicroservice.infrastructure\\chatmicroservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF3FF04-1C21-4A59-8EC9-2EBFAA5CAC39}|src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.domain\\chatmicroservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EF3FF04-1C21-4A59-8EC9-2EBFAA5CAC39}|src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj|solutionrelative:src\\chatmicroservice.domain\\chatmicroservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A42426-A864-47A7-B310-1BA8CB3B81CE}|src\\ChatMicroservice.API\\ChatMicroservice.API.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.api\\chatmicroservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62A42426-A864-47A7-B310-1BA8CB3B81CE}|src\\ChatMicroservice.API\\ChatMicroservice.API.csproj|solutionrelative:src\\chatmicroservice.api\\chatmicroservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.application\\chatmicroservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|solutionrelative:src\\chatmicroservice.application\\chatmicroservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A42426-A864-47A7-B310-1BA8CB3B81CE}|src\\ChatMicroservice.API\\ChatMicroservice.API.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A42426-A864-47A7-B310-1BA8CB3B81CE}|src\\ChatMicroservice.API\\ChatMicroservice.API.csproj|solutionrelative:src\\chatmicroservice.api\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +63,139 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\ServiceExtensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.Infrastructure\\ServiceExtensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\ServiceExtensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\ChatMicroservice.Infrastructure\\ServiceExtensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T23:12:54.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatRoomEntityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\EntityConfigurations\\ChatRoomEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.Infrastructure\\EntityConfigurations\\ChatRoomEntityConfiguration.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\EntityConfigurations\\ChatRoomEntityConfiguration.cs",
+              "RelativeToolTip": "src\\ChatMicroservice.Infrastructure\\EntityConfigurations\\ChatRoomEntityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T23:12:10.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatRoomMemberEntityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\EntityConfigurations\\ChatRoomMemberEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.Infrastructure\\EntityConfigurations\\ChatRoomMemberEntityConfiguration.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\EntityConfigurations\\ChatRoomMemberEntityConfiguration.cs",
+              "RelativeToolTip": "src\\ChatMicroservice.Infrastructure\\EntityConfigurations\\ChatRoomMemberEntityConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T23:11:55.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\Context\\ChatDbContext.cs",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.Infrastructure\\Context\\ChatDbContext.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\Context\\ChatDbContext.cs",
+              "RelativeToolTip": "src\\ChatMicroservice.Infrastructure\\Context\\ChatDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T23:11:47.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.API\\appsettings.json",
+              "RelativeToolTip": "src\\ChatMicroservice.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-28T22:55:34.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\Context\\ChatDbContextFactory.cs",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.Infrastructure\\Context\\ChatDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\Context\\ChatDbContextFactory.cs",
+              "RelativeToolTip": "src\\ChatMicroservice.Infrastructure\\Context\\ChatDbContextFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T22:27:32.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatMicroservice.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
+              "RelativeToolTip": "src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-28T22:10:50.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatMicroservice.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj",
+              "RelativeToolTip": "src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-28T22:10:10.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatMicroservice.API.csproj",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.API\\ChatMicroservice.API.csproj",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.API\\ChatMicroservice.API.csproj",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.API\\ChatMicroservice.API.csproj",
+              "RelativeToolTip": "src\\ChatMicroservice.API\\ChatMicroservice.API.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-28T22:09:25.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatMicroservice.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj",
+              "RelativeToolTip": "src\\ChatMicroservice.Infrastructure\\ChatMicroservice.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-28T21:53:57.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.API\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "src\\ChatMicroservice.API\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.API\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "src\\ChatMicroservice.API\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T20:30:37.632Z"
             }
           ]
         }

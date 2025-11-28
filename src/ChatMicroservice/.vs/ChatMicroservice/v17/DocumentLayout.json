@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\",
+  "WorkspaceRootPath": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7temp\\chatmicroservice\\src\\chatmicroservice.application\\contracts\\repositories\\ichatroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.application\\contracts\\repositories\\ichatroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|solutionrelative:src\\chatmicroservice.application\\contracts\\repositories\\ichatroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7temp\\chatmicroservice\\src\\chatmicroservice.application\\dtos\\requests\\createchatroomrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.application\\dtos\\requests\\createchatroomrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|solutionrelative:src\\chatmicroservice.application\\dtos\\requests\\createchatroomrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7temp\\chatmicroservice\\src\\chatmicroservice.application\\dtos\\requests\\updatechatroomrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.application\\dtos\\requests\\updatechatroomrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|solutionrelative:src\\chatmicroservice.application\\dtos\\requests\\updatechatroomrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7temp\\chatmicroservice\\src\\chatmicroservice.application\\dtos\\chatroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|c:\\users\\simon\\documents\\master\u0027s 2025\\p7personal\\p7local\\socialdiningapp\\src\\chatmicroservice\\src\\chatmicroservice.application\\dtos\\chatroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{989E500A-6FAE-4740-9DBA-8A41D95F04BA}|src\\ChatMicroservice.Application\\ChatMicroservice.Application.csproj|solutionrelative:src\\chatmicroservice.application\\dtos\\chatroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ChatRoomDTO.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\ChatRoomDTO.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\ChatRoomDTO.cs",
               "RelativeDocumentMoniker": "src\\ChatMicroservice.Application\\DTOs\\ChatRoomDTO.cs",
-              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\ChatRoomDTO.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\ChatRoomDTO.cs",
               "RelativeToolTip": "src\\ChatMicroservice.Application\\DTOs\\ChatRoomDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,9 +52,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UpdateChatRoomRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\Requests\\UpdateChatRoomRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\Requests\\UpdateChatRoomRequestDTO.cs",
               "RelativeDocumentMoniker": "src\\ChatMicroservice.Application\\DTOs\\Requests\\UpdateChatRoomRequestDTO.cs",
-              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\Requests\\UpdateChatRoomRequestDTO.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\Requests\\UpdateChatRoomRequestDTO.cs",
               "RelativeToolTip": "src\\ChatMicroservice.Application\\DTOs\\Requests\\UpdateChatRoomRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,11 +64,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "IChatRoomRepository.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Application\\Contracts\\Repositories\\IChatRoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\Contracts\\Repositories\\IChatRoomRepository.cs",
               "RelativeDocumentMoniker": "src\\ChatMicroservice.Application\\Contracts\\Repositories\\IChatRoomRepository.cs",
-              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Application\\Contracts\\Repositories\\IChatRoomRepository.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\Contracts\\Repositories\\IChatRoomRepository.cs",
               "RelativeToolTip": "src\\ChatMicroservice.Application\\Contracts\\Repositories\\IChatRoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T11:59:34.57Z",
               "EditorCaption": ""
@@ -77,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CreateChatRoomRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\Requests\\CreateChatRoomRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\Requests\\CreateChatRoomRequestDTO.cs",
               "RelativeDocumentMoniker": "src\\ChatMicroservice.Application\\DTOs\\Requests\\CreateChatRoomRequestDTO.cs",
-              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\Requests\\CreateChatRoomRequestDTO.cs",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Application\\DTOs\\Requests\\CreateChatRoomRequestDTO.cs",
               "RelativeToolTip": "src\\ChatMicroservice.Application\\DTOs\\Requests\\CreateChatRoomRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,9 +89,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Directory.Build.props",
-              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\Directory.Build.props",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\Directory.Build.props",
               "RelativeDocumentMoniker": "Directory.Build.props",
-              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Temp\\ChatMicroservice\\Directory.Build.props",
+              "ToolTip": "C:\\Users\\simon\\Documents\\Master\u0027s 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\Directory.Build.props",
               "RelativeToolTip": "Directory.Build.props",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",

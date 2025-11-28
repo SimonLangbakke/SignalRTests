@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatMicroservice.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+745153a3fe0b40946fdf5a395538fe85ad86457e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce8ff5f99a97e0ae9373a430d1a20851f860f4eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatMicroservice.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatMicroservice.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
