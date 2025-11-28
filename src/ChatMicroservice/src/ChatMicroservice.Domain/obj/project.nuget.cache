@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MA0hSH8vdLg=",
+  "dgSpecHash": "IHS8Gt4P8Ac=",
   "success": true,
-  "projectFilePath": "C:\\Users\\simon\\Documents\\Master's 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
+  "projectFilePath": "C:\\Users\\simon\\Documents\\Master's 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

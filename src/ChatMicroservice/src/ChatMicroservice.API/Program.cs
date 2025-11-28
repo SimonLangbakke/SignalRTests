@@ -1,41 +1,60 @@
-var builder = WebApplication.CreateBuilder(args);
+using ChatMicroservice.API.Hubs;
+using ChatMicroservice.API.Middlewares;
+using ChatMicroservice.Application.ServiceCollectionExtensions;
+using ChatMicroservice.Infrastructure.ServiceExtensions;
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+namespace ChatMicroservice.API;
 
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+public class Program
 {
-    app.MapOpenApi();
-}
+    public static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
 
-app.UseHttpsRedirection();
+        // Configure services
+        builder.Services.ConfigureApplicationServices();
+        builder.Services.ConfigureInfrastructureServices();
+        builder.Services.ConfigureDatabase(builder.Configuration);
+        builder.Services.ApplyMigrations();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+        builder.Services.AddControllers();
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddHttpContextAccessor();
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+        builder.Services.ConfigureJwtBearerAuthentication(builder.Configuration);
+        builder.Services.ConfigureSwagger();
+        builder.Services.AddSignalR();
 
-app.Run();
+        builder.Services.AddCors(options =>
+        {
+            options.AddDefaultPolicy(policy =>
+            {
+                policy.AllowAnyOrigin()
+                      .AllowAnyHeader()
+                      .AllowAnyMethod();
+            });
+        });
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+        builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+
+        var app = builder.Build();
+
+        app.UseSwagger();
+        app.UseSwaggerUI(c =>
+        {
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Chat API v1");
+            c.RoutePrefix = string.Empty;
+        });
+
+        app.UseExceptionHandler(options => { });
+        app.UseHttpsRedirection();
+        app.UseCors();
+        app.UseAuthentication();
+        app.UseAuthorization();
+
+        app.MapControllers();
+        app.MapHub<ChatHub>("/hubs/chat");
+
+        app.Run();
+    }
 }

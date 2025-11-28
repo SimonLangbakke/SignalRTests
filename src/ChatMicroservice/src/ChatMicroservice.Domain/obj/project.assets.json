@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simon\\Documents\\Master's 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\simon\\Documents\\Master's 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
       "projectName": "ChatMicroservice.Domain",
-      "projectPath": "C:\\Users\\simon\\Documents\\Master's 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
+      "projectPath": "C:\\Users\\simon\\Documents\\Master's 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Domain\\ChatMicroservice.Domain.csproj",
       "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simon\\Documents\\Master's 2025\\P7Personal\\P7Temp\\ChatMicroservice\\src\\ChatMicroservice.Domain\\obj\\",
+      "outputPath": "C:\\Users\\simon\\Documents\\Master's 2025\\P7Personal\\P7Local\\socialdiningapp\\src\\ChatMicroservice\\src\\ChatMicroservice.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

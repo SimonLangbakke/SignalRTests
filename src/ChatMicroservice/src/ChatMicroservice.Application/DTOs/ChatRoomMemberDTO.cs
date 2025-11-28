@@ -1,9 +1,10 @@
 ﻿namespace ChatMicroservice.Application.DTOs;
+
 public record ChatRoomMemberDTO(
+    Guid Id,
+    Guid ChatRoomId,
     Guid UserId,
-    string UserName,
-    bool IsAdmin,
-    DateTime JoinedAt,
-    //DateTime? LastReadAt,
-    bool IsActive
+    DateTime JoinedDate,
+    bool IsActive,
+    bool IsAdmin
 );

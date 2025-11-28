@@ -1,5 +1,4 @@
 using ChatMicroservice.Application.DTOs;
-using ChatMicroservice.Domain.Entities;
 using ChatMicroservice.Application.DTOs.Requests;
 
 namespace ChatMicroservice.Application.Contracts.Repositories;
